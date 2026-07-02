@@ -1,9 +1,9 @@
 use std::collections::HashMap;
+use tutorial::authentication::signin;
 
 // Entry point
 fn main() {
     println!("Hello, world!");
-
     // ------Primitive Data types----- //
 
     // Some theory
@@ -277,6 +277,9 @@ fn main() {
     // let first = &numbers[0];
     // numbers.push(4);
     // println!("{first}")
+
+    // ---------- Modules -------------- //
+    signin::signin_user();
 }
 
 // functions --> Follows Hoisting
